@@ -5,17 +5,17 @@ const path = require('path');
 async function helpCommand(sock, chatId, channelLink) {
     const helpMessage = `
 ╔═══════════════════╗
-   *🤖 ${settings.botName || 'KnightBot-MD'}*  
+   *🤖 ${settings.botName || 'ARBOT'}*  
    Version: *${settings.version || '1.0.0'}*
-   by ${settings.botOwner || 'Mr Unique Hacker'}
+   by ${settings.botOwner || 'Ayik Kiya'}
    YT : ${global.ytch}
 ╚═══════════════════╝
 
-*Available Commands:*
+*Perintah Tersedia:*
 
 ╔═══════════════════╗
-🌐 *General Commands*:
-║ ➤ .help or .menu
+🌐 *Gunakan Perintah*:
+║ ➤ .help atau .menu
 ║ ➤ .ping
 ║ ➤ .alive
 ║ ➤ .tts <text>
@@ -34,7 +34,7 @@ async function helpCommand(sock, chatId, channelLink) {
 ╚═══════════════════╝
 
 ╔═══════════════════╗
-🎨 *Image/Sticker Commands*:
+🎨 *Perintah Image/Sticker*:
 ║ ➤ .blur <image>
 ║ ➤ .simage <reply to sticker>
 ║ ➤ .sticker <reply to image>
@@ -44,7 +44,7 @@ async function helpCommand(sock, chatId, channelLink) {
 ╚═══════════════════╝   
 
 ╔═══════════════════╗
-🛠️ *Admin Commands*:
+🛠️ *Perintah Admin*:
 ║ ➤ .ban @user
 ║ ➤ .promote @user
 ║ ➤ .demote @user
